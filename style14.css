@@ -1,0 +1,259 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin 0;
+    padding: 0 30px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #152238;
+    padding: 10px 20px;
+    height: 20px;
+}
+.nav-links button {
+    background-color: #043b52;
+}
+.navbar .logo img {
+    width: 40px;
+    height: auto;
+    }
+.nav-links {
+    display: flex;
+    gap: 20px;
+    }
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.9s ease;
+    }
+    .nav-links a :hover{
+        color: #38bdf8;
+    }
+    .nav-links a img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+    }
+    .navbar {
+        
+        border-bottom: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+.hero {
+     background: linear-gradient(90deg, #1442ac, #122b53);
+     color: white;
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     margin-top: 0;
+    padding: 40px 60px 40px 60px;
+    height: 100px;
+}
+.hero .image img {
+    width: 150px;
+    height: 150px;
+    object-fit: top;
+    border-radius: 50px;
+    border: 4px solid #38bdf8;
+    box-shadow: 0 0 15px rgba(11, 72, 98, 0.4);
+}
+.hero h2 {
+    color : #38bdf8;
+}
+
+.about {
+    background-color: #E0F2FE;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border: 1px solid #e2e8f0;
+    max-width: 100%;
+}
+.about h2 {
+    color: #0f172a;
+    margin-bottom: 15px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.about p {
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+.about, .Skill, .projects-contact {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 48%;
+    float: right;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+footer{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Skill{
+    background-color: #EDE9FE;
+    padding: 20px;
+   margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+}
+.Skill button {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    padding: 6px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.Skill button h3 {
+    font-size: 14px;
+    color: #334155;
+    margin: 0;
+}
+.Skill .html, .Skill .css, .Skill .JavaScript {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#project {
+    background-color: #CCFBF1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    width: 100%;       
+    float: left;
+    margin-right: 2%;
+    box-sizing: border-box;
+    display: block;
+}
+
+#project h2 {
+    font-size: 18px;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+#project .HTML, #project .CSS {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#project a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form ka naya aur saaf suthra CSS code */
+.form {
+    width: 48%;
+    float: right;
+    margin-top: -340px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    /* background-color: #ffffff; */
+    padding: 25px 30px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    background-color: #152238;
+}
+
+.form h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #152238; /* Navbar jaisa dark blue rang */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 1px solid #e2e8f0;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+}
+
+.social-Link {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-Link a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.social-Link a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center; 
+    width: 100%;
+    display: block;
+}
